@@ -1,4 +1,5 @@
 import { MustHaveCoffee } from './coffee/getcoffee'
+import * as $ from "jquery";
 
 
 class ReallyCoffee extends MustHaveCoffee {
@@ -15,6 +16,7 @@ class ReallyCoffee extends MustHaveCoffee {
     setCoffeeType(name:string){
         // super.setCoffeeType(name)
         console.log("hello there " + this.coffeeType)
+        $("body").css('background-color','red')
 
     }
 }
