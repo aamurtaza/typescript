@@ -1,5 +1,8 @@
 export class MustHaveCoffee {
-	constructor() {
-		console.log("Make it bulletproof")
-	}
+    coffeeType: string;
+    constructor() {
+    }
+    setCoffeeType(name:string){
+        this.coffeeType = name
+    }
 }

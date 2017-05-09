@@ -1,0 +1,32 @@
+{
+  "name": "ab-ts-setup",
+  "version": "1.0.0",
+  "description": "\"Learning Typescript before Angular\"",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.3.2",
+    "webpack": "^2.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "webpack --watch --optimize-minimize",
+    "server": "http-server -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adnanbajwa/typescript_learning.git"
+  },
+  "keywords": [
+    "learn",
+    "typescript",
+    "webpack",
+    "npm"
+  ],
+  "author": "adnanbajwa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adnanbajwa/typescript_learning/issues"
+  },
+  "homepage": "https://github.com/adnanbajwa/typescript_learning#readme"
+}
