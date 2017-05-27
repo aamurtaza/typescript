@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"i",
+				"import	imports a module …"
+			],
+			[
 				"ev",
 				"evaluate"
 			],
@@ -75,31 +79,23 @@
 			"file": "tsconfig.json",
 			"settings":
 			{
-				"buffer_size": 271,
+				"buffer_size": 297,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "main.ts",
+			"file": "src/coffee/getcoffee.ts",
 			"settings":
 			{
-				"buffer_size": 1208,
+				"buffer_size": 150,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "index.html",
+			"file": "src/main.ts",
 			"settings":
 			{
-				"buffer_size": 126,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "dist/main.js",
-			"settings":
-			{
-				"buffer_size": 1429,
+				"buffer_size": 644,
 				"line_ending": "Unix"
 			}
 		}
@@ -144,7 +140,13 @@
 	},
 	"file_history":
 	[
+		"/Users/adnanbajwa/dev/type_script_setup/package.json",
+		"/Users/adnanbajwa/dev/type_script_setup/webpack.config.js",
+		"/Users/adnanbajwa/dev/type_script_setup/index.html",
+		"/Users/adnanbajwa/dev/type_script_setup/dist/bundle.js",
 		"/Users/adnanbajwa/dev/type_script_setup/main.ts",
+		"/Users/adnanbajwa/dev/type_script_setup/src/main.ts",
+		"/Users/adnanbajwa/dev/type_script_setup/dist/main.js",
 		"/Users/adnanbajwa/Downloads/Bdata last/TableJoinHadoop/NameHobbyMain.java",
 		"/Users/adnanbajwa/Desktop/output",
 		"/Users/adnanbajwa/Desktop/less_trafi_boats_data",
@@ -193,7 +195,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -201,15 +203,15 @@
 					"file": "tsconfig.json",
 					"settings":
 					{
-						"buffer_size": 271,
+						"buffer_size": 297,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								271,
-								271
+								215,
+								215
 							]
 						],
 						"settings":
@@ -226,18 +228,18 @@
 				},
 				{
 					"buffer": 1,
-					"file": "main.ts",
+					"file": "src/coffee/getcoffee.ts",
 					"settings":
 					{
-						"buffer_size": 1208,
+						"buffer_size": 150,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1036,
-								1036
+								150,
+								150
 							]
 						],
 						"settings":
@@ -246,62 +248,33 @@
 							"use_tab_stops": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 166.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "index.html",
-					"settings":
-					{
-						"buffer_size": 126,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								126,
-								126
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "dist/main.js",
+					"buffer": 2,
+					"file": "src/main.ts",
 					"settings":
 					{
-						"buffer_size": 1429,
+						"buffer_size": 644,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								942,
-								942
+								503,
+								503
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"typescript_plugin_format_options":
-							{
-								"convertTabsToSpaces": false,
-								"indentSize": 4.0,
-								"tabSize": 4.0
-							}
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"use_tab_stops": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
